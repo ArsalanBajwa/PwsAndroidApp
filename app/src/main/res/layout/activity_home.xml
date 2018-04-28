@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="356dp"
+        android:layout_height="38dp"
+        android:text="Welcome Dear User"
+        android:textSize="28dp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignTop="@+id/button5"
+        android:background="@color/colorGreen"
+        android:text="Events"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button7"
+        android:layout_marginTop="131dp"
+        android:background="@color/colorGreen"
+        android:text="Reports"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <Button
+        android:id="@+id/btn_app"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_centerVertical="true"
+        android:background="@color/colorGreen"
+        android:text="Application"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button9"
+        android:layout_centerVertical="true"
+        android:background="@color/colorGreen"
+        android:text="Notifications"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignTop="@+id/button9"
+        android:background="@color/colorGreen"
+        android:text="Annoucements"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="125dp"
+        android:layout_marginStart="28dp"
+        android:background="@color/colorGreen"
+        android:text="My Account"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="294dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:text="Public Welfare System"
+        android:textColor="@color/colorBlack"
+        android:textSize="28dp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="447dp" />
+</RelativeLayout>
